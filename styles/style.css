@@ -1,0 +1,254 @@
+body {
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 200px;
+}
+
+.nav-title {
+    color: #181818;
+    font-size: 45px;
+    font-weight: 800;
+}
+
+nav>ul {
+    display: flex;
+    align-items: center;
+}
+
+nav li {
+    list-style: none;
+    margin-right: 50px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #474747;
+}
+
+.nav-title {
+    font-size: 45px;
+    font-weight: 800;
+    line-height: 61px;
+    text-align: left;
+}
+
+.holudcolor {
+    color: #FD6E0A;
+}
+
+.btn-primary {
+    border-radius: 5px;
+    background: rgb(253, 110, 10);
+    color: rgb(255, 255, 255);
+    border: 0px;
+    font-size: 20px;
+    font-weight: 700;
+    padding: 15px 35px;
+}
+
+.header {
+    background-color: #FFF8F3;
+    background-image: url(../images/header_bg.png), url('../images/developer.png');
+    background-repeat: no-repeat;
+    background-position: bottom right, top left;
+}
+
+.banner {
+    padding: 30px 30px 0px 150px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.banner1 {
+    display: block;
+    max-width: 500px;
+}
+
+#btn {
+    margin-right: 10px;
+}
+
+.banner .profile-pic {
+    width: 500px;
+}
+
+.banner-getting {
+    color: rgb(71, 71, 71);
+    font-size: 45px;
+    margin-bottom: 0px;
+}
+
+.banner-title {
+    color: rgb(24, 24, 24);
+    font-size: 85px;
+    margin-top: 5px;
+    margin-bottom: 20px;
+}
+
+.banner-dd {
+    color: rgb(117, 117, 117);
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.about-title {
+    color: rgb(24, 24, 24);
+
+    font-size: 35px;
+    font-weight: 700;
+    letter-spacing: 0%;
+    text-align: center;
+}
+
+.about-dd {
+    color: rgb(117, 117, 117);
+    font-size: 18px;
+    font-weight: 400;
+    letter-spacing: 0%;
+    text-align: center;
+}
+
+.about {
+    border-radius: 10px;
+
+    background: rgb(255, 248, 243);
+    margin: 130px 190px;
+    padding: 130px 155px;
+}
+
+.about-info-container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.about-infoo {
+    text-align: center;
+
+}
+
+.bout-title-1 {
+    color: rgb(117, 117, 117);
+    font-size: 18px;
+    font-weight: 400;
+    letter-spacing: 0%;
+}
+
+.about-dd1 {
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 30px;
+    letter-spacing: 0%;
+
+}
+
+.what-i-do-dd {
+    color: rgb(117, 117, 117);
+    font-size: 18px;
+    font-weight: 400;
+    padding: 30px 350px;
+}
+
+.skill-container {
+    display: flex;
+    gap: 20px;
+    margin: 0 150px;
+}
+
+.skill {
+    padding: 30px;
+    border-radius: 5px;
+    box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+    background-color: #FFFFFF;
+
+}
+
+main section {
+    gap: 150px;
+
+}
+
+.resume-container {
+    display: flex;
+    gap: 50px;
+}
+
+.resume-colum-title {
+    color: rgb(71, 71, 71);
+    font-size: 30px;
+    margin: 0px 150px;
+}
+
+.resume-colum {
+    margin: 0 150px;
+}
+
+.resume-item-title {
+    color: rgb(71, 71, 71);
+    font-size: 25px;
+    margin-bottom: 10px;
+}
+
+.resume-colum-title-institute {
+    color: rgb(117, 117, 117);
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.resume-item-dd {
+    color: rgb(117, 117, 117);
+    font-size: 16px;
+}
+
+.resume-container hr {
+    margin: 30px;
+}
+
+.cv-botton {
+    text-align: center;
+    margin-top: 50px;
+}
+
+footer {
+    display: flex;
+    background: rgb(255, 248, 243);
+    padding: 130px 200px;
+    margin-top: 110px;
+    gap: 100px;
+}
+
+.footer-colum {
+    width: 50%;
+}
+
+.footer-colum-title {
+    color: rgb(24, 24, 24);
+    font-size: 35px;
+    margin-bottom: 20px;
+}
+.sosial-link{
+    margin-top: 30px;
+}
+.sosial-link a{
+    margin-right: 10px;
+}
+.contract input[type="text"],input[type="email"], textarea {
+    display: block;
+    padding: 18px 35px;
+    margin-bottom: 25px;
+    border-radius: 5px;
+    background: rgb(255, 255, 255);
+    border: 0;
+    width: 100%;
+}
