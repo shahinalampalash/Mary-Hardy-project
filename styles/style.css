@@ -35,9 +35,7 @@ nav a {
 
 .nav-title {
     font-size: 45px;
-    font-weight: 800;
-    line-height: 61px;
-    text-align: left;
+    
 }
 
 .holudcolor {
@@ -64,7 +62,7 @@ nav a {
 .banner {
     padding: 30px 30px 0px 150px;
     display: flex;
-    align-items: center;
+    
     justify-content: space-between;
 }
 
@@ -115,8 +113,6 @@ nav a {
 .about-dd {
     color: rgb(117, 117, 117);
     font-size: 18px;
-    font-weight: 400;
-    letter-spacing: 0%;
     text-align: center;
 }
 
@@ -138,7 +134,7 @@ nav a {
 
 }
 
-.bout-title-1 {
+.about-title-1 {
     color: rgb(117, 117, 117);
     font-size: 18px;
     font-weight: 400;
@@ -156,7 +152,6 @@ nav a {
 .what-i-do-dd {
     color: rgb(117, 117, 117);
     font-size: 18px;
-    font-weight: 400;
     padding: 30px 350px;
 }
 
@@ -251,4 +246,60 @@ footer {
     background: rgb(255, 255, 255);
     border: 0;
     width: 100%;
+}
+
+@media screen and (max-width:576px) {
+    .header{
+        background-image: none;
+    }
+    nav{
+        flex-direction: column;
+        margin: 10px;
+    }
+    .banner{
+        flex-direction: column;
+        padding: 10px;
+    }
+    .banner .profile-pic{
+        width: 100%;
+    }
+    .btn-primary{
+        padding: 10px;
+        margin-right: 5px;
+    }
+    .skill-container{
+        flex-direction: column;
+        padding: 10px;
+        margin: 10px;
+    }
+    .what-i-do-dd{
+        padding: 10px;
+    }
+    .about{
+        margin: 10px;
+        padding: 10px;
+    }
+    .about-info-container{
+        flex-direction: column;
+    }
+    .resume-container{
+        flex-direction: column;
+    }
+    .resume-colum-title{
+        margin: 10px;
+    }
+.resume-colum {
+    margin: 10px;
+}
+footer{
+    flex-direction: column;
+    padding: 10px;
+}   
+.footer-colum{
+    width: 100%;
+}
+.contract input[type="text"],input[type="email"], textarea{
+    width: 80%;
+}
+    
 }
